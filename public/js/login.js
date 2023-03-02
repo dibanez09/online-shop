@@ -93850,7 +93850,7 @@ function Body(_ref) {
                         fullWidth: true
                       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__.jsx)(_components_MainField__WEBPACK_IMPORTED_MODULE_7__["default"], {
                         type: "password",
-                        label: "repassword",
+                        label: "re-type password",
                         name: "repassword",
                         fullWidth: true
                       })]

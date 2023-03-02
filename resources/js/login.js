@@ -132,7 +132,7 @@ function Body({message}) {
                                                 <MainField label='name' name='name' fullWidth/>
                                                 <MainField label='email' name='email' fullWidth/>
                                                 <MainField type='password' label='password' name='password' fullWidth/>
-                                                <MainField type='password' label='repassword' name='repassword' fullWidth/>
+                                                <MainField type='password' label='re-type password' name='repassword' fullWidth/>
                                             </FormHandler>
                                         </TabPanel>
                                     </TabContext>
