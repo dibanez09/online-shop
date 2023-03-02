@@ -3,6 +3,7 @@
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
+use App\Models\User;
 
 return new class extends Migration
 {
@@ -22,6 +23,16 @@ return new class extends Migration
             $table->rememberToken();
             $table->timestamps();
         });
+
+        User::updateOrCreate([
+            'id' => 1
+        ], [
+            'name' => 'Admin',
+            'email' => 'admin@example.com',
+            'email_verified_at' => now(),
+            'password' => 'Admin',
+            'created_at' => now()
+        ]);
     }
 
     /**

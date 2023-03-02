@@ -105,7 +105,7 @@ function Navbar() {
               textDecoration: 'none',
             }}
           >
-            LOGO
+            Lazhapee
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
           </Box>
@@ -133,7 +133,7 @@ function Navbar() {
               onClose={handleCloseUserMenu}
             >
               {settings.map((setting) => (
-                <MenuItem key={setting} onClick={handleCloseUserMenu}>
+                <MenuItem key={setting} onClick={()=>window.location.href = '/logout'}>
                   <Typography textAlign="center">{setting}</Typography>
                 </MenuItem>
               ))}

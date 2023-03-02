@@ -1,4 +1,4 @@
-import './index.css';
+import '../css/index.css';
 import React, { useState, useEffect } from 'react';
 import ReactDOM from 'react-dom';
 import { Grid, Box, Typography } from '@mui/material';
